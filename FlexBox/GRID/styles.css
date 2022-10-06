@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px 150px;
+}
+.elementos{
+    background-color: blueviolet;
+    border: 1px solid;
+}

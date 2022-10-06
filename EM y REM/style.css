@@ -1,0 +1,4 @@
+/* HTML, por defecto, tiene 16px de font size*/ 
+h1{
+    font-size: 2rem;
+} 

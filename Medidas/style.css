@@ -1,0 +1,30 @@
+.mm{
+    font-size: 10mm;
+}
+.cm{
+    font-size: 1cm;
+}
+.in{
+    font-size: 0.5in;
+}
+.pc{
+    font-size: 3pc;
+}
+.px{
+    font-size: 50px;
+}
+.padre_relativas{
+    width: 50%;
+    height: 100%;
+    border: 3px solid black;
+}
+.hijo_relativas{
+    width: 50%;
+    height: 50%;
+    border: 3px solid red;
+}
+.nieto_relativas{
+    width: 50%;
+    height: 200px;
+    border: 3px solid blue;
+}

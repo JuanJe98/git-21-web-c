@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form name="Formulario-Aprendiendo" method="" action="">
+        <input 
+        type="text"
+        name="nombre"
+        placeholder="Nombre"
+        maxlength="10"
+        minlength="2"
+        required
+        />
+        <br>
+        <br>
+
+        <input 
+            type="password"
+            name="passw"
+            placeholder="Contraseña"
+            maxlength="10"
+            minlength="2"
+            required
+        />
+        <br>
+        <br>
+        <input
+            type="number"
+            name="numero"
+            min="0"
+            max="10" 
+            required
+        />
+        <br>
+        <br>
+        <!----Opción 1 de agregar un label-->
+        <label>
+            Aceptas los términos?
+            <input 
+            type="checkbox"
+            name="condiciones"
+            required
+        />
+        <br>
+        <br>
+
+        </label>
+        <!----Opción 2 de lavel-->
+        <label for="fmiembro">Quieres ser miembro?</label>
+        <input 
+            id="fmiembro"
+            type="checkbox"
+            name="miembro"
+            required
+        />
+        <br>
+        <br>
+        <h6>Ingresa tu rango de edad</h6>
+        
+        <label for="fage-opt1">0-15</label>
+        <input 
+            id="fage-opt1"
+            name="age"
+            type="radio"
+            value="0-15"
+            required
+        />
+        
+        <label for="fage-opt2">16-30</label>
+        <input 
+            id="fage-opt2"
+            name="age"
+            type="radio"
+            value="16-30"
+            required
+        />
+        
+        <br>
+        <br>
+        <label>
+            Selecciona hora
+            <input 
+                name="hora"
+                type="time"
+                min="09:00"
+                max="18:00"
+                required
+            />
+        </label>
+        <br>
+        <br>
+        <label for="fanimal">
+            Selecciona tu animal favorito
+            <select name="animal" id="fanimal" required>
+                <option value="perro">Perro</option>
+                <option value="gato">Gato</option>
+                <option value="lobo">Lobo</option>
+            </select>
+        </label>
+
+        <br>
+        <br>
+        <label>
+            Selecciona un color
+            <input
+                type="color"
+                name="color_fav" 
+                required
+            />
+        </label>
+
+        <br>
+        <br>
+        <label >
+            Selecciona un archivo
+            <input 
+                type="file"
+                multiple
+                required
+            />
+        </label>
+
+        <br>
+        <br>
+
+        <textarea 
+        name="observaciones"
+        rows="10"
+        cols="40"
+        required
+        >
+        </textarea>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

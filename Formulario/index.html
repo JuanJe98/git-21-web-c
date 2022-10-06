@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzas NYJ</title>
+</head>
+<body>
+    <h1>Pizzas NYJ</h1>
+    <h4>Ingrese los datos solicitados para oredenar sus pizzas</h4>
+    <br>
+
+    <form name="Oreden de pizzas"action="">
+        <label>
+            Nombre:
+            <input 
+            type="text"
+            name="nombre"
+            placeholder="Nombre"
+            minlength="2"
+            required
+            />
+        <br>
+        <br>
+        </label>
+
+        <label>
+            Teléfono/Celular:
+            <input 
+            type="tel"
+            name="telefono"
+            required
+            />
+        <br>
+        <br>
+        </label>
+
+        <label>
+            Correo:
+            <input 
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            required
+            />
+        <br>
+        <br>
+        </label>
+        
+        <label>
+            Dirección:
+            <input 
+            type="text"
+            name="address"
+            placeholder="Dirección"
+            minlength="2"
+            required
+            />
+        <br>
+        <br>
+        </label>
+
+        <label>
+            Colonia:
+            <input 
+            type="text"
+            name="colonia"
+            placeholder="Colonia"
+            minlength="2"
+            required
+            />
+        <br>
+        <br>
+        </label>
+
+        <label>
+            Cantidad
+            <input 
+            type="number"
+            name="cantidad"
+            min="1"
+            max="20"
+            required
+            />
+        <br>
+        <br>
+        </label>
+
+        <label for="saborp">
+            Sabor de Pizza
+            <select name="sabor" id="saborp" required>
+                <option value="napolitana">Pizza Napolitana</option>
+                <option value="pepperoni">Pizza de Pepperoni</option>
+                <option value="vegana">Pizza Vegana</option>
+                <option value="4quesos">Pizza 4 Quesos</option>
+            </select>
+        <br>
+        <br>
+        </label>
+        <label>Hora de Entrega
+            <input 
+            type="time"
+            name="entrega"
+            min="10:00"
+            max="21:00"
+            required
+            />
+        <br>
+        <br>
+        </label>
+        
+        <button type="submit">Ordenar</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.moon{
+    max-width: 800px;
+    padding: 50px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lu1{
+    grid-row: 1 / 3;
+}
+.lu9{
+    grid-column: 2 / 4;
+}
+.lu5{
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+}
+.lu6{
+   grid-row: 3 / 5;
+   grid-column: 1 / 3; 
+}

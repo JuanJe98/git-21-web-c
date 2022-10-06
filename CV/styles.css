@@ -1,0 +1,17 @@
+body{
+    background: url(./images/ARK.jpg);
+    background-size: cover;
+}
+*{
+    color:rgb(255, 248, 248);
+    text-decoration-color: red;
+}
+img{
+    margin-left: 500px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
